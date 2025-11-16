@@ -1,7 +1,7 @@
 {
-	"name": "Sample Theme",
+	"name": "Night Owl Theme",
 	"version": "1.0.0",
 	"minAppVersion": "1.0.0",
-	"author": "Obsidian",
-	"authorUrl": "https://obsidian.md"
+	"author": "Night Owl Theme Port",
+	"authorUrl": "https://github.com/sdras/night-owl-vscode-theme"
 }
