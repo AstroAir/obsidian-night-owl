@@ -1,7 +1,7 @@
 {
-	"name": "Night Owl Theme",
+	"name": "Night Owl",
 	"version": "1.0.0",
 	"minAppVersion": "1.0.0",
-	"author": "Night Owl Theme Port",
-	"authorUrl": "https://github.com/sdras/night-owl-vscode-theme"
+	"author": "Max Qian",
+	"authorUrl": "https://github.com/AstroAir/obsidian-night-owl"
 }
