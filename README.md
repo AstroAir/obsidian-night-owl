@@ -1,95 +1,206 @@
-This is a sample theme for Obsidian ([https://obsidian.md](https://obsidian.md/)).
+# Night Owl Theme for Obsidian
 
-## First Time publishing a theme?
+A beautiful dark theme for [Obsidian](https://obsidian.md) based on Sarah Drasner's popular [Night Owl VSCode theme](https://github.com/sdras/night-owl-vscode-theme). This theme brings the elegant, eye-friendly color palette and syntax highlighting of Night Owl to your Obsidian workspace.
 
-### Quick start
+## 🌙 Theme Description
 
-<img width="244" alt="Pasted image 20220822135601" src="https://user-images.githubusercontent.com/693981/186000386-4f4da987-fcaf-4aa5-aed4-e34b5901255d.png">
+Night Owl is a carefully crafted dark theme designed to be easy on the eyes during those late-night coding and note-taking sessions. The theme features:
 
-First, choose **Use this template**. That will create a copy of this repository (repo) under your Github profile. Then, you will want to _clone_ your new repository to your computer.
+- **Deep blue backgrounds** that reduce eye strain
+- **Vibrant syntax highlighting** with carefully chosen accent colors
+- **Excellent contrast ratios** for improved readability
+- **Consistent color palette** throughout the entire Obsidian interface
+- **Professional appearance** suitable for both personal and work environments
 
-Once you have the repo locally on your computer, there are a couple of placeholder fields you will need to fill in.
+The theme transforms Obsidian's interface with Night Owl's signature deep blue (`#011627`) background and complementary colors that make text pop while maintaining visual harmony.
 
-1. Inside the `manifest.json` file, change the "name" field to whatever you want the name of your theme to be. For example:
+## 📦 Installation
 
-  ```json
-  {
-    "name": "Moonstone",
-    "version": "0.0.0",
-    "minAppVersion": "1.0.0"
-  }
-  ```
+### Method 1: Community Theme Gallery (Recommended)
 
-2. Also inside the manifest.json file, you can include your name under next to the "author" field.
+1. Open Obsidian Settings (`Ctrl/Cmd + ,`)
+2. Navigate to **Appearance** → **Themes**
+3. Click **Browse** to open the Community Themes gallery
+4. Search for "Night Owl Theme"
+5. Click **Install and use**
 
-After you have those fields configured, all that's left to do is add your styles! All of your CSS needs to be inside the file `theme.css` which is located at root of your repository.
+### Method 2: Manual Installation
 
-## Adding your theme to the Theme Gallery
+1. Download the latest release from the [Releases page](../../releases)
+2. Extract the files to your vault's themes folder:
+   - **Windows**: `VaultFolder\.obsidian\themes\night-owl-theme\`
+   - **macOS**: `VaultFolder/.obsidian/themes/night-owl-theme/`
+   - **Linux**: `VaultFolder/.obsidian/themes/night-owl-theme/`
+3. Restart Obsidian
+4. Go to **Settings** → **Appearance** → **Themes**
+5. Select "Night Owl Theme" from the dropdown
 
-### Add a screenshot thumbnail
+### Method 3: BRAT Plugin (Beta Testing)
 
-Inside the repository, include a screenshot thumbnail of your theme. You can name the file anything, for example `screenshot.png`. This image will be used for the small preview in the theme list.
+If you have the BRAT plugin installed:
 
-Your screenshot file should be `16:9` aspect ratio.
-The recommended size is 512x288.
+1. Open BRAT settings
+2. Add this repository URL
+3. Enable the theme in Appearance settings
 
-### Submit your theme for review
+## ✨ Features
 
-To have your theme included in the Theme Gallery, you will need to submit a Pull Request to [`obsidianmd/obsidian-releases`](https://github.com/obsidianmd/obsidian-releases#community-theme).
+### 🎨 Comprehensive UI Styling
 
-## Releasing Versions _(Optional)_
+- **Editor Interface**: Dark blue backgrounds with excellent text contrast
+- **Sidebar Navigation**: Consistent theming for file explorer, tags, and outline
+- **Tab Management**: Active and inactive tab styling with Night Owl colors
+- **Status Bar**: Seamlessly integrated bottom status bar
+- **Modal Dialogs**: Settings, command palette, and popup windows
+- **Graph View**: Custom node and connection colors
 
-If your theme is getting more and more complex, you might want to start thinking about how your theme will stay compatible with different versions of Obsidian. Introduced in v0.16 of Obsidian, themes support [Github Releases](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository). This means that you can specify which versions of your theme are compatible with which versions of Obsidian.
+### 🌈 Syntax Highlighting
 
-### Steps for releasing the initial version of your theme (1.0.0)
+- **Headings**: Gradient colors from blue to purple for different heading levels
+- **Links**: Distinctive blue (`#82AAFF`) for internal and external links
+- **Code Blocks**: Syntax highlighting with Night Owl's signature colors:
+  - Keywords: Purple (`#c792ea`)
+  - Strings: Green (`#c5e478`)
+  - Numbers: Orange (`#F78C6C`)
+  - Comments: Muted blue (`#5f7e97`)
+- **Inline Code**: Highlighted with subtle background and accent colors
+- **Blockquotes**: Styled with left border and italic text
 
-1. From your theme's repository, click on "Releases".
-   
-<img width="235" alt="Pasted image 20220822145001" src="https://user-images.githubusercontent.com/693981/186000441-287a1a97-65f6-4b5f-ba66-810ceae91cd3.png">
+### 🎯 Interactive Elements
 
-2. On the Releases page, there should be a button to **Draft a new Release**. Press it.
+- **Buttons**: Hover effects with Night Owl purple accents
+- **Checkboxes**: Custom styling for task lists and checkboxes
+- **Tags**: Rounded tags with Night Owl color scheme
+- **Search**: Highlighted search results and input fields
+- **Scrollbars**: Subtle, themed scrollbar styling
 
-<img width="202" alt="Pasted image 20220822145048" src="https://user-images.githubusercontent.com/693981/186000664-6c63ae14-f685-4d39-bfe6-324f95cd9669.png">
+### 📱 Responsive Design
 
-3. Fill out the Release information form.
-	- **Choose a Tag**: Type in the name of the version number here. At the bottom of the dropdown should be a button to create a new tag with your latest theme changes. Choose this option.
-		<img width="340" alt="Pasted image 20220822145648" src="https://user-images.githubusercontent.com/693981/186000848-bd1c2619-ea09-4e70-a886-40769cda6921.png">
-	- **Release Title**: This can be the version number.
-	- **Description** _Optional_: Anything that changed
-	- **Files:** The most important part of this form is uploading the files. You can do this by dragging 'n dropping the `manifest.json` file and the `theme.css` file your for theme inside the file upload field.
+- **Mobile Support**: Optimized for Obsidian mobile apps
+- **Plugin Compatibility**: Works well with popular community plugins
+- **Accessibility**: High contrast ratios meeting WCAG guidelines
 
-<img width="946" alt="Pasted image 20220822145356" src="https://user-images.githubusercontent.com/693981/186000772-e689ecea-c3b7-4e9d-9204-7ad62c0123aa.png">
+## 📸 Screenshots
 
-4. Click "Publish Release."
-5. Make sure that `versions.json` is set up correctly. This file is a map.
-  ```json
-  {
-    "1.0.0": "0.16.0"
-  }
-  ```
-  
-  This means that version 1.0.0 of your theme is compatible with version 0.16.0 of Obsidian. For the initial release of your theme, you shouldn't need to make any changes to this file.
- 
-### Steps for releasing new versions
+### Main Interface
 
-Releasing a new version of your theme is the same as releasing the initial version.
+*Screenshot placeholder - showing the main Obsidian interface with Night Owl theme*
 
-1. From your theme's repository, click on "Releases."
-2. On the Releases page, there should be a button to **Draft a new Release**. Press it.
-3. Fill out the Release information form.
-	- **Choose a Tag**: Type in the name of the version number here. At the bottom of the dropdown should be a button to create a new tag with your latest theme changes. Choose this option.
-		<img width="333" alt="Pasted image 20220822145812" src="https://user-images.githubusercontent.com/693981/186000912-f494def9-0f67-4662-92bf-bd278082455f.png">
-	- **Release Title**: This can be the version number.
-	- **Description** _Optional_: Anything that changed
-	- **Files:** The most important part of this form is uploading the files. You can do this by dragging 'n dropping the `manifest.json` file and the `theme.css` file your for theme inside the file upload field.
+### Editor View
 
-4. Click "Publish Release."
-5. Update the `versions.json` file in your repository. For the initial release of your theme, you probably didn't need to make any changes to the `versions.json` file. When you release subsequent versions of your theme; however, it's best practice to include the new version as entry in the versions.json file. So this might look like:
-  ```json
-  {  
-		"1.0.0": "0.16.0",
-		"1.0.1": "0.16.0"
-  }
-  ```
+*Screenshot placeholder - demonstrating syntax highlighting and editor styling*
 
-  What's important to note here is: the new version is included as the "key" and the "value" is the minimum version of Obsidian that your theme compatible with. So if the new version of your theme is only compatible with an Insider version of Obsidian, it's important to set this value accordingly. This will prevent users on older versions of Obsidian from updating to the newer version of your theme.
+### Graph View
+
+*Screenshot placeholder - showing the graph view with Night Owl colors*
+
+### Settings Panel
+
+*Screenshot placeholder - displaying the settings interface with theme applied*
+
+## 🎨 Color Palette Reference
+
+### Primary Colors
+
+```css
+--night-owl-bg-primary: #011627     /* Main background */
+--night-owl-bg-secondary: #0b253a   /* Secondary background */
+--night-owl-bg-tertiary: #021320    /* Tertiary background */
+--night-owl-text-primary: #d6deeb   /* Primary text */
+--night-owl-text-secondary: #5f7e97 /* Secondary text */
+```
+
+### Accent Colors
+
+```css
+--night-owl-accent-purple: #c792ea  /* Keywords, operators */
+--night-owl-accent-blue: #82AAFF    /* Functions, links */
+--night-owl-accent-cyan: #7fdbca     /* Constants, attributes */
+--night-owl-accent-green: #c5e478    /* Strings, success */
+--night-owl-accent-yellow: #ecc48d   /* Variables, warnings */
+--night-owl-accent-orange: #F78C6C   /* Numbers, parameters */
+--night-owl-accent-red: #EF5350      /* Errors, deletions */
+--night-owl-accent-pink: #ff5874     /* Special elements */
+```
+
+### UI Elements
+
+```css
+--night-owl-border: #122d42          /* Borders, dividers */
+--night-owl-selection: #1d3b53       /* Text selection */
+--night-owl-highlight: #5f7e9779     /* Search highlights */
+```
+
+## 🙏 Credits
+
+This theme is a port of the original **Night Owl** theme created by [Sarah Drasner](https://github.com/sdras).
+
+- **Original Theme**: [Night Owl VSCode Theme](https://github.com/sdras/night-owl-vscode-theme)
+- **Creator**: [Sarah Drasner](https://sarahdrasnerdesign.com/)
+- **Obsidian Port**: Adapted for Obsidian with additional UI elements and mobile support
+
+Special thanks to Sarah Drasner for creating such a beautiful and functional color scheme that has inspired developers and designers worldwide.
+
+## 📋 Version Information
+
+- **Current Version**: 1.0.0
+- **Minimum Obsidian Version**: 1.0.0
+- **Last Updated**: November 2024
+- **Compatibility**: Desktop and Mobile versions of Obsidian
+
+### Version History
+
+- **v1.0.0**: Initial release with complete Night Owl color scheme implementation
+
+## 🤝 Contributing
+
+We welcome contributions to improve the Night Owl theme! Here's how you can help:
+
+### Reporting Issues
+
+1. Check existing [Issues](../../issues) to avoid duplicates
+2. Create a new issue with:
+   - Clear description of the problem
+   - Screenshots if applicable
+   - Your Obsidian version and operating system
+   - Steps to reproduce the issue
+
+### Suggesting Improvements
+
+- Open an issue with the "enhancement" label
+- Describe your suggested improvement
+- Explain why it would benefit users
+
+### Contributing Code
+
+1. Fork this repository
+2. Create a feature branch (`git checkout -b feature/improvement-name`)
+3. Make your changes to `theme.css`
+4. Test thoroughly with different Obsidian features
+5. Commit your changes (`git commit -am 'Add some improvement'`)
+6. Push to the branch (`git push origin feature/improvement-name`)
+7. Create a Pull Request
+
+### Development Guidelines
+
+- Maintain consistency with Night Owl color palette
+- Test changes across different operating systems
+- Ensure mobile compatibility
+- Follow existing CSS organization and commenting style
+- Update version numbers appropriately
+
+## 📄 License
+
+This theme is released under the MIT License. See [LICENSE](LICENSE) for details.
+
+## 🔗 Links
+
+- [Original Night Owl VSCode Theme](https://github.com/sdras/night-owl-vscode-theme)
+- [Sarah Drasner's Website](https://sarahdrasnerdesign.com/)
+- [Obsidian Community](https://obsidian.md/community)
+- [Report Issues](../../issues)
+- [Latest Releases](../../releases)
+
+---
+
+*Made with ❤️ for the Obsidian community*
